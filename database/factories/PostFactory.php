@@ -1,8 +1,9 @@
 <?php
 
 namespace Database\Factories;
+use App\Post;
+use Faker\Generator as Faker;
 
-use App\Models\Post;
 
 $factory->define(Post::class, function (Faker $faker) {
     return [

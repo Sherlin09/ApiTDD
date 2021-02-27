@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource( 'posts', 'Api\PostController' )->middlerware('auth:api');
+Route::apiResource( 'posts', 'Api\PostController' )->middleware('auth:api');
