@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-use App\Post;
+use App\Models\Post;
 use Faker\Generator as Faker;
 
 
